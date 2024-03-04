@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    background-color: #fff; /* White background */
+    color: #000; /* Black text */
+}
+
+section {
+    width: 100%;
+    padding: 20px;
+    min-height: calc(100vh - 80px);
+}
+
+section .form_data {
+    max-width: 600px;
+    margin: 40px auto;
+    padding: 40px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.form_heading {
+    text-align: center;
+}
+
+.form_data h1 {
+    font-size: 36px;
+    color: #000; /* Black heading */
+    margin-bottom: 20px;
+}
+
+.form_data p {
+    color: #555; /* Dark gray paragraph text */
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+.form_data form {
+    margin-top: 30px;
+    width: 100%;
+}
+
+.form_data form .form_input input {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #333; /* Dark border color */
+    border-radius: 6px;
+    outline: none;
+    margin-bottom: 16px;
+    margin-top: 10px;
+    font-size: 16px;
+    transition: border-color 0.3s ease-in-out;
+}
+
+.form_data form .form_input label {
+    font-weight: 600;
+    font-size: 16px;
+    color: #333; /* Dark label color */
+}
+
+.form_data form .form_input input:focus {
+    border-color: #000; /* Black border color on focus */
+}
+
+.form_data form .form_input input::placeholder {
+    color: #777; /* Light gray placeholder color */
+}
+
+.form_input .showpass {
+    color: #000; /* Black color for the password visibility toggle text */
+    background-color: #fff; /* White background for the password visibility toggle */
+}
+
+form .btn {
+    display: block;
+    width: 100%;
+    padding: 15px;
+    border: none;
+    outline: none;
+    border-radius: 6px;
+    background-color: #000; /* Black button background color */
+    color: #fff; /* White button text color */
+    font-weight: 600;
+    font-size: 18px;
+    margin-top: 15px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+}
+
+form .btn:hover {
+    background-color: #333; /* Dark gray button background color on hover */
+}
+
+form .btnload {
+    background-color: #333; /* Dark gray loading button background color */
+}
+
+.form_data form p {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.form_data form a {
+    text-decoration: none;
+    color: #555; /* Dark gray link color */
+    border-bottom: 2px solid #333; /* Dark gray link border color */
+}
